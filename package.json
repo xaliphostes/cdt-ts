@@ -1,0 +1,23 @@
+{
+    "name": "cdt-ts",
+    "version": "1.0.0",
+    "description": "Constrained Demaunay Triangulation",
+    "repository": "",
+    "author": "savithru-j, fmaerten",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "@types/jest": "^29.5.5",
+        "@types/node": "^20.8.6",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "jest-junit": "^16.0.0",
+        "ts-jest": "^29.1.1",
+        "typescript": "^5.2.2"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "jest -c ./jest.config.js --rootDir ./src"
+    },
+    "dependencies": {}
+}
